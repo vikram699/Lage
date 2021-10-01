@@ -17,6 +17,8 @@ public class LoginPage {
 	}
 
 	public void enterEmail(WebDriver driver, String emailVal) {
+		WebDriverWait wb = new WebDriverWait(driver, 30);
+		wb.until(ExpectedConditions.elementToBeClickable(email1));
 		driver.findElement(email1).sendKeys(emailVal);
 
 	}
