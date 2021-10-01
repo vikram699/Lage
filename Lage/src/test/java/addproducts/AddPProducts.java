@@ -14,7 +14,6 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
-import config.Constants;
 import pageObject.LoginPage;
 import pageObject.Productspage;
 import utility.DriverUtiltiy;
